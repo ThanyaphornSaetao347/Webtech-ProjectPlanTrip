@@ -47,7 +47,7 @@ const neartravel=ref([
   place:'https://maps.app.goo.gl/zM6sgZnkv64CvWo46',
   Price:'-',
   time:'-',
-  phone:'-',
+  phone:'053324000',
   link:'https://www.facebook.com/royalprojectmonngo/',
   Facebook:'ศูนย์พัฒนาโครงการหลวงม่อนเงาะ'
 },

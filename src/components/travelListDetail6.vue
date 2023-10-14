@@ -5,7 +5,7 @@
     </div>
     <div class="tipark">
       <!-- <RouterLink to="/sunphakea_tipak"></RouterLink> / -->
-      <RouterLink to="/sunphakea_tiew">ที่พัก / สถานที่เที่ยว</RouterLink>
+      <RouterLink class="nav-btn" to="/sunphakea_tiew">ที่พัก / สถานที่เที่ยว</RouterLink>
     </div>
   </div>
   <h3>ที่พัก</h3>

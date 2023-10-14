@@ -4,7 +4,7 @@
       <h3>{{ n.name }}</h3>
     </div>
     <div class="tipark">
-      <RouterLink class="nav-btn" to="/doiluang_tipak">ที่พัก / สถานที่เที่ยว</RouterLink> /
+      <RouterLink class="nav-btn" to="/doiluang_tipak">ที่พัก / สถานที่เที่ยว</RouterLink> 
     </div>
   </div>
 <h3>สถานที่เที่ยวใกล้ๆ</h3>

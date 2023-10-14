@@ -48,7 +48,7 @@ const stayy=ref([
   Location:'ถนนศรีวิชัย ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่ 50200 ',
   phone:'0 5321 0244 (ที่ทำการฯ) 0 5329 5041 (บ้านพักนักท่องเที่ยวสวนสน) ',
   Price:'คนไทย เด็ก 10 บาท ผู้ใหญ่ 20 บาท, ชาวต่างชาติ เด็ก 50 บาท ผู้ใหญ่ 100 บาท',
-  link: 'https://nps.dnp.go.th/home.php?id=120&name=%25E0%25B8%25AD%25E0%25B8%258A.%25E0%25B8%2594%25E0%25B8%25AD%25E0%25B8%25A2%25%25B8%25AA%25E0%25B8%25B8%25E0%25B9%2580%25E0%25B8%2597%25E0%25B8%259E%25E0%25B8%259B%25E0%25B8%25B8%25E0%25B8%25A2',
+  link: 'https://www.facebook.com/pages/%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%81%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%AD%E0%B8%A2%E0%B8%AA%E0%B8%B8%E0%B9%80%E0%B8%97%E0%B8%9E/161902447250641/',
   Facebook:'บ้านพักอุทยานแห่งชาติ ดอยสุเทพ-ปุย (At Doi Suthep Pui National Park) ',
   place:'https://maps.app.goo.gl/4BQroLfNmC7QEHZY6'
 },

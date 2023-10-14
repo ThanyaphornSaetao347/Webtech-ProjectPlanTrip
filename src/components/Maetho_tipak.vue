@@ -13,6 +13,9 @@
       <div class="name">
         <div class="name">
         <img :src="stay.img" style="width: 80%;" alt="รูปภาพ 1">
+        <br>
+        <br>
+        <img :src="stayimg2" style="width: 80%;" alt="">
         <br><br>
         <h4>{{ stay.name }}</h4>
       </div>
@@ -38,7 +41,8 @@ text_box:'เดินทางโดยสวัสดิภาพ'
 
 const stayy=ref([
 {name:'แม่โถแคมป์ปิ้ง ' , 
-  img: "https://th.bing.com/th/id/OIP.srAJVcagsDUnsOZ0sOrlHgHaFj?pid=ImgDet&rs=1",
+  img: "https://www.paiduaykan.com/travel/wp-content/uploads/2022/11/35-.jpg",
+  img2:"https://th.bing.com/th/id/OIP.srAJVcagsDUnsOZ0sOrlHgHaFj?pid=ImgDet&rs=1",
   text_box:'แม่โถแคมป์ปิ้ง เป็นที่พักเพียงแห่งเดียวในดอยแม่โถ เป็นที่พักในรูปแบบเต้นท์  โลเคชั่นดีมาก ตั้งอยู่บนภูเขามองเห็นวิวได้ 360 องศา แต่เส้นทางจากปากทางถนนใหญ่มายังที่พักจะแคบนิดนึงและเป็นทางดิน ถ้าช่วงฝนตกถนนลื่นรถเก๋ง หรือรถโหลดต่ำไม่แนะนำให้ขึ้นมาค่ะ ใช้บริการรถของที่พักมารับส่งจะดีกว่า '  ,
   Location:'-',
   phone:' 093-6144803',
