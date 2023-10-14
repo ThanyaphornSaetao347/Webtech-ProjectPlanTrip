@@ -36,7 +36,7 @@ const totalItems = computed(() => fav.value.reduce((acc, item) => acc + item.qua
         <header>
           <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
             <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
-              <img class="logo" src="../assets/logo.png" alt="logo">
+              <img style="width: 80px;" src="../assets/logo.png" alt="logo">
             </a>
             
             <!-- <div class="d-flex flex-column flex-md-row align-items-center">
@@ -44,7 +44,7 @@ const totalItems = computed(() => fav.value.reduce((acc, item) => acc + item.qua
             </div> -->
 
             <div class="col-4 text-center">
-        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#">Chiang Mai Let's go</a>
+        <a class="blog-header-logo text-body-emphasis text-decoration-none" style="font-family: Poppins,sans-serif;" href="#">Chiang Mai Let's go</a>
       </div>
 
             <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
@@ -65,17 +65,6 @@ const totalItems = computed(() => fav.value.reduce((acc, item) => acc + item.qua
 
 
 <style>
-body {
-    background-color: #000000cc; 
-}
-
-.logo {
-    width: 65px;
-    height: auto;
-}
-.container{
-  font-family: 'Poppins', sans-serif;
-}
 .blog-header-logo{
   display: flex;
   
