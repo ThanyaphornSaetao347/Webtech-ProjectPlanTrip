@@ -33,6 +33,7 @@
 
 <script setup>
 import { ref } from 'vue';
+import { RouterLink } from 'vue-router';
 
 const travellist=ref([
 {name:'ดอยอ่างขาง' , img:"https://www.reviewchiangmai.com/wp-content/uploads/2022/06/doi-ang-khang-1536x1024.png",

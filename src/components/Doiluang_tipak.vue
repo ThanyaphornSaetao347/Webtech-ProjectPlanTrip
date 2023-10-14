@@ -25,6 +25,7 @@
         <p>เบอร์ติดต่อ : {{ stay.phone }}</p>
         <p>ราคา :{{ stay.Price }}</p>
         <p>Facebook : <a :href="stay.link">{{ stay.Facebook }}</a></p>
+        <p>พิกัด : <a :href="stay.place">{{ stay.place }}</a></p>
       </div>
     </div>
   </div>
@@ -49,6 +50,7 @@ const stayy=ref([
   Price:'ราคา ที่พัก+อาหาร 2 มื้อ 750 บาท',
   link: 'https://www.facebook.com/TreeHouseHideaway',
   Facebook:'บ้านต้นไม้แม่แมะ Tree House Hideaway ',
+  place:'https://maps.app.goo.gl/2KfcyBFksts4M2YLA'
 },
 {name:'บ้านสายหมอก โฮมสเตย์ เชียงดาว' , 
   img: "https://www.paiduaykan.com/travel/wp-content/uploads/2016/07/3-DSC08168.jpg",
@@ -59,6 +61,7 @@ const stayy=ref([
   Price:' ห้องพัก ราคา 500 บาท',
   link: ' https://www.facebook.com/BansaimokHomestay/',
   Facebook:'บ้านสายหมอก โฮมสเตย์ เชียงดาว',
+  place:'https://maps.app.goo.gl/MAFjKUkWTG5toacf9'
 },
 {name:'บ้านวิวหลวง เชียงดาว' , 
   img: "https://www.chillpainai.com/src/wewakeup/scoop/img_scoop/scoop/Toon/Trip%20Chiangmai4d3n/Doi_Luang-7.jpg",
@@ -69,6 +72,7 @@ const stayy=ref([
   Price:'ห้องพัก ราคา 500 บาท',
   link: 'https://www.facebook.com/pages/%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%94%E0%B8%AD%E0%B8%A2%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87-%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%94%E0%B8%B2%E0%B8%A7/637218686321101',
   Facebook:'บ้านวิวดอยหลวง เชียงดาว',
+  place:'https://maps.app.goo.gl/RAiYCcCXkrJWTNTS8'
 },
 {name:'บ้านระเบียงดาว' , 
   img: "https://www.chillpainai.com/src/wewakeup/scoop/img_scoop/scoop/Toon/5%20Cafe%20Chantaburi%20Chic/Doi_Luang-9.jpg",
@@ -79,6 +83,7 @@ const stayy=ref([
   Price:' สอบถามกับทางที่พัก',
   link: 'https://www.facebook.com/rabiangdaohomestay',
   Facebook:'บ้านระเบียงดาว',
+  place:'https://maps.app.goo.gl/rB3Drw9qRare33RbA'
 },
 {name:'บ้านหมอกตะวัน เชียงดาว' , 
   img: "https://www.chillpainai.com/src/wewakeup/scoop/img_scoop/ben_study_2016/sep/wood_dinner/baanmok/1.jpg",
@@ -89,6 +94,7 @@ const stayy=ref([
   Price:'ห้องพัก ราคา 500 บาท',
   link: 'https://www.facebook.com/profile.php?id=100066889585683',
   Facebook:'บ้านหมอกตะวัน',
+  place:'https://maps.app.goo.gl/8wFtHsaLdTinjsdk7'
 },
 ])
 </script>
